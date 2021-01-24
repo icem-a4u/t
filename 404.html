@@ -25,7 +25,10 @@
 			{
 				location.href=response_obj.responseText;
 			}
-			document.getElementById('contents_page').innerHTML="<big>404 Page not found.</big>"
+			else
+			{
+				document.getElementById('contents_page').innerHTML="<big>404 Page not found.</big>"
+			}
 		}
 	</script>
 </html>
